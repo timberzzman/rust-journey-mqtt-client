@@ -5,7 +5,6 @@ use crate::mqtt_worker::MqttWorker;
 mod mqtt_worker;
 
 fn main() {
-    println!("Hello, world!");
     let mqtt_worker = MqttWorker::new();
 
     let mqtt_worker2 = mqtt_worker.clone();
